@@ -18,10 +18,10 @@ class AppRouter {
   static final router = GoRouter(
     routes: [
       GoRoute(
-          path: login, name: login, builder: (context, state) => LoginScreen()),
+          path: "/", name: login, builder: (context, state) => LoginScreen()),
       GoRoute(
         // path: viewTasks,
-        path: "/",
+        path: viewTasks,
         name: viewTasks,
         builder: (context, state) => const TasksView(),
       ),
