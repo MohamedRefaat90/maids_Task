@@ -10,7 +10,8 @@ class AppAssets {
 
   /* Add Task Screen */
   static const String excel = "assets/images/add_task_screen/excel.png";
-  static const String word = "assets/images/login_screen/word.png";
-  static const String powerpoint = "assets/images/login_screen/powerpoint.png";
-  static const String pdf = "assets/images/login_screen/pdf.png";
+  static const String word = "assets/images/add_task_screen/word.png";
+  static const String powerpoint =
+      "assets/images/add_task_screen/powerpoint.png";
+  static const String pdf = "assets/images/add_task_screen/pdf.png";
 }

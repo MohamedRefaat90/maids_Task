@@ -20,7 +20,6 @@ class AppRouter {
       GoRoute(
           path: "/", name: login, builder: (context, state) => LoginScreen()),
       GoRoute(
-        // path: viewTasks,
         path: viewTasks,
         name: viewTasks,
         builder: (context, state) => const TasksView(),
