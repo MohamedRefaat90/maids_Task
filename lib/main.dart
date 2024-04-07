@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:notes/core/di/di.dart';
+import 'package:notes/core/helpers/blocObserver.dart';
 import 'package:notes/core/helpers/initServices.dart';
 import 'package:notes/core/theming/app_theme.dart';
+import 'package:notes/features/home/data/models/task_model.dart';
 
+import 'core/helpers/constants.dart';
 import 'core/routing/app_routing.dart';
 import 'features/home/presentation/cubit/add_task/add_task_cubit.dart';
 import 'features/home/presentation/cubit/task_view/tasks_view_cubit.dart';
 
 void main() async {
-  initServices();
+  await initServices();
 
   runApp(const NotesApp());
 }
