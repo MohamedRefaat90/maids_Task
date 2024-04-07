@@ -4,25 +4,30 @@ This is a Task Manager application built with Flutter. It allows users to create
 
 # Installation:
 
-Clone this repository:
-  git clone https://github.com/MohamedRefaat90/maids_Task
+1. Clone this repository:
+ > git clone https://github.com/MohamedRefaat90/maids_Task.git
   
-Navigate to the project directory:
-cd to-do-list-flutter
+2. Navigate to the project directory:
+> cd to-do-list-flutter
 
-Install dependencies:
-flutter pub get
+3. Install dependencies:
+> flutter pub get
 
-# Running the App:
+4. Running the App:
 Connect a physical device or launch an emulator.
 Run the app:
-flutter run
-
+ > flutter run
+    
 # Design Decisions:
 
-The app uses a simple and clean Material Design aesthetic.
-A state management solution like Provider or Bloc is used to manage the list of tasks (Optional - Replace with the solution you used).
-The app utilizes local storage (e.g., SharedPreferences) to persist task data (Optional).
-Challenges Faced:
+1. The app uses a simple and clean Material Design aesthetic.
+2. A state management solution : Bloc is used to manage the list of tasks.
+3. The app utilizes local storage Hive to persist task data (Optional.
 
-Implementing efficient task data persistence was a challenge. (Optional - Briefly describe the challenge and your solution)
+# Challenges Faced: 
+* Implementing efficient task data persistence was a challenge.
+
+# Screen Shots , Video & Apk
+* https://drive.google.com/drive/folders/1mG0a7et6_Blgx4qDiyFlT5FXK-ObUznt?usp=sharing
+
+
